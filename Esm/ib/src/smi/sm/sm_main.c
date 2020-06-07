@@ -223,7 +223,7 @@ SMMcastConfig_t 			sm_mc_config;
 SmMcastMlidShare_t 			sm_mls_config;
 SMMcastDefGrpCfg_t 			sm_mdg_config;
 
-uint32_t    				xml_trace = 0;
+static uint32_t    				xml_trace = 0;
 
 extern uint32_t pm_conf_start;
 extern uint32_t bm_conf_start;
